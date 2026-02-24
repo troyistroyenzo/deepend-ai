@@ -1,120 +1,150 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Brain, Lock, Zap, ArrowRight } from 'lucide-react';
-import { frameworks } from '@/lib/data/frameworks';
 
-export default function Home() {
+const ASCII_ART = `
+██████╗ ███████╗███████╗██████╗ ███████╗███╗   ██╗██████╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗██╔════╝████╗  ██║██╔══██╗
+██║  ██║█████╗  █████╗  ██████╔╝█████╗  ██╔██╗ ██║██║  ██║
+██║  ██║██╔══╝  ██╔══╝  ██╔═══╝ ██╔══╝  ██║╚██╗██║██║  ██║
+██████╔╝███████╗███████╗██║     ███████╗██║ ╚████║██████╔╝
+╚═════╝ ╚══════╝╚══════╝╚═╝     ╚══════╝╚═╝  ╚═══╝╚═════╝`.trim();
+
+const ASCII_SMALL = `
+ ___  ____ ____ ___  ____ _  _ ___
+ |  \\ |___ |___ |__] |___ |\\ | |  \\
+ |__/ |___ |___ |    |___ | \\| |__/`.trim();
+
+const CHARS = '░▒▓█▀▄╗╔╚╝║═╬╣╠╩╦01';
+
+function scramble(text: string): string {
+  return text
+    .split('')
+    .map((ch) => {
+      if (ch === ' ' || ch === '\n') return ch;
+      return Math.random() > 0.4 ? ch : CHARS[Math.floor(Math.random() * CHARS.length)];
+    })
+    .join('');
+}
+
+export default function LandingPage() {
+  const [displayText, setDisplayText] = useState('');
+  const [phase, setPhase] = useState<'scramble' | 'reveal' | 'done'>('scramble');
+  const [opacity, setOpacity] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
+  }, []);
+
+  const targetArt = isMobile ? ASCII_SMALL : ASCII_ART;
+
+  useEffect(() => {
+    setOpacity(1);
+
+    // Scramble phase
+    let frame = 0;
+    const totalFrames = 20;
+    const interval = setInterval(() => {
+      frame++;
+      if (frame <= totalFrames) {
+        // Gradually reveal real characters
+        const progress = frame / totalFrames;
+        const mixed = targetArt
+          .split('')
+          .map((ch, i) => {
+            if (ch === ' ' || ch === '\n') return ch;
+            return Math.random() < progress
+              ? ch
+              : CHARS[Math.floor(Math.random() * CHARS.length)];
+          })
+          .join('');
+        setDisplayText(mixed);
+        if (frame === totalFrames) {
+          setPhase('reveal');
+        }
+      } else {
+        setDisplayText(targetArt);
+        setPhase('done');
+        clearInterval(interval);
+      }
+    }, 60);
+
+    return () => clearInterval(interval);
+  }, [targetArt]);
+
   return (
-    <div className="py-20">
-      {/* Hero */}
-      <section className="text-center mb-24">
-        <div className="mb-4">
-          <span className="text-xs font-mono tracking-[0.3em] text-white/30 uppercase">
+    <div className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center relative overflow-hidden selection:bg-[#3B82F6]/30">
+      {/* Scanline overlay */}
+      <div className="pointer-events-none fixed inset-0 z-10" style={{
+        background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px)',
+      }} />
+
+      {/* Subtle grid */}
+      <div className="pointer-events-none fixed inset-0 opacity-[0.03]" style={{
+        backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
+        backgroundSize: '20px 20px',
+      }} />
+
+      {/* Main content */}
+      <div
+        className="relative z-20 flex flex-col items-center justify-center px-4 transition-opacity duration-1000"
+        style={{ opacity }}
+      >
+        {/* ASCII Art */}
+        <pre
+          className="font-mono text-white text-[0.45rem] sm:text-[0.55rem] md:text-xs lg:text-sm leading-none tracking-tight mb-12 text-center select-none"
+          style={{
+            textShadow: phase === 'done'
+              ? '0 0 20px rgba(59,130,246,0.3), 0 0 40px rgba(59,130,246,0.1)'
+              : '0 0 10px rgba(59,130,246,0.15)',
+            transition: 'text-shadow 0.5s ease',
+          }}
+        >
+          {displayText || targetArt}
+        </pre>
+
+        {/* Tagline */}
+        <div className="text-center mb-12">
+          <p className="font-mono text-[10px] sm:text-xs tracking-[0.4em] text-white/20 uppercase mb-4">
             Biblical Psychology Learning Platform
-          </span>
+          </p>
+          <p className="font-sans text-sm sm:text-base text-white/40 max-w-md mx-auto leading-relaxed">
+            Structured frameworks from The Deep End podcast.
+            <br className="hidden sm:block" />
+            {' '}Flashcards. Episode outlines. Biblical integration.
+          </p>
         </div>
-        <h1 className="text-6xl sm:text-8xl font-mono font-bold mb-6 gradient-title leading-none pb-2">
-          DEEPEND AI
-        </h1>
-        <p className="text-lg sm:text-xl text-white/50 mb-10 max-w-2xl mx-auto font-sans leading-relaxed">
-          Transform The Deep End podcast into structured psychological frameworks
-          with biblical foundations. Study flashcards, explore episode outlines,
-          and integrate timeless truth.
+
+        {/* CTA */}
+        <Link
+          href="/start"
+          className="group relative font-mono text-xs sm:text-sm tracking-[0.3em] uppercase text-white/60 hover:text-white transition-all duration-300 border border-white/10 hover:border-white/30 px-8 py-3 rounded"
+        >
+          <span className="relative z-10">Enter</span>
+          <div className="absolute inset-0 bg-white/0 group-hover:bg-white/5 rounded transition-all duration-300" />
+        </Link>
+
+        {/* Bottom hint */}
+        <p className="mt-16 font-mono text-[9px] tracking-[0.3em] text-white/10 uppercase">
+          Flesh OS ↔ Spirit OS — Two systems. One choice.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            href="/episodes"
-            className="inline-flex items-center gap-2 px-8 py-3 gradient-spirit rounded-lg font-mono font-semibold text-white hover:opacity-90 transition-opacity"
-          >
-            Browse Episodes <ArrowRight className="w-4 h-4" />
-          </Link>
-          <Link
-            href="/learn/flashcards"
-            className="inline-flex items-center gap-2 px-8 py-3 border border-[#333333] rounded-lg font-mono font-semibold text-white/70 hover:border-white/30 hover:text-white transition-all"
-          >
-            Start Learning
-          </Link>
-        </div>
-      </section>
+      </div>
 
-      {/* Three Products */}
-      <section className="mb-24">
-        <h2 className="text-xs font-mono tracking-[0.3em] text-white/30 uppercase mb-8 text-center">
-          Learning Modes
-        </h2>
-        <div className="grid sm:grid-cols-3 gap-4">
-          <Link href="/episodes">
-            <div className="card-binary group cursor-pointer h-full">
-              <div className="w-10 h-10 rounded-lg bg-[#3B82F6]/20 flex items-center justify-center mb-4 group-hover:bg-[#3B82F6]/30 transition-colors">
-                <Brain className="w-5 h-5 text-[#3B82F6]" />
-              </div>
-              <h3 className="text-lg font-mono font-bold mb-2 group-hover:text-[#3B82F6] transition-colors">
-                Episode Learning
-              </h3>
-              <p className="text-sm text-white/50 font-sans leading-relaxed mb-4">
-                Study frameworks through episode outlines and interactive 3D flashcards.
-              </p>
-              <span className="text-xs font-mono text-[#3B82F6] uppercase tracking-wider">
-                Active →
-              </span>
-            </div>
-          </Link>
-
-          <div className="card-binary opacity-40 cursor-not-allowed">
-            <div className="w-10 h-10 rounded-lg bg-[#F97316]/20 flex items-center justify-center mb-4">
-              <Lock className="w-5 h-5 text-[#F97316]" />
-            </div>
-            <h3 className="text-lg font-mono font-bold mb-2">Topic Learning</h3>
-            <p className="text-sm text-white/50 font-sans leading-relaxed mb-4">
-              Learn by concept across multiple episodes with diagnostic quizzes.
-            </p>
-            <span className="text-xs font-mono text-white/30 uppercase tracking-wider">
-              Coming Soon
-            </span>
-          </div>
-
-          <div className="card-binary opacity-40 cursor-not-allowed">
-            <div className="w-10 h-10 rounded-lg bg-[#8B5CF6]/20 flex items-center justify-center mb-4">
-              <Zap className="w-5 h-5 text-[#8B5CF6]" />
-            </div>
-            <h3 className="text-lg font-mono font-bold mb-2">AI Learning</h3>
-            <p className="text-sm text-white/50 font-sans leading-relaxed mb-4">
-              Ask questions, get personalized protocols, explore with AI trained on all content.
-            </p>
-            <span className="text-xs font-mono text-white/30 uppercase tracking-wider">
-              Coming Soon
-            </span>
-          </div>
-        </div>
-      </section>
-
-      {/* Frameworks Preview */}
-      <section>
-        <h2 className="text-xs font-mono tracking-[0.3em] text-white/30 uppercase mb-8 text-center">
-          Core Frameworks
-        </h2>
-        <div className="grid sm:grid-cols-3 gap-4">
-          {frameworks.map((fw) => {
-            const colorMap: Record<string, string> = {
-              spirit: 'text-[#3B82F6] bg-[#3B82F6]/10 border-[#3B82F6]/20',
-              trauma: 'text-[#F97316] bg-[#F97316]/10 border-[#F97316]/20',
-              integration: 'text-[#8B5CF6] bg-[#8B5CF6]/10 border-[#8B5CF6]/20',
-            };
-            const style = colorMap[fw.color] ?? colorMap.spirit;
-
-            return (
-              <div key={fw.id} className={`rounded-lg border p-5 ${style}`}>
-                <div className="text-2xl mb-3">{fw.icon}</div>
-                <h3 className="font-mono font-bold text-sm uppercase tracking-wide mb-2">
-                  {fw.name}
-                </h3>
-                <p className="text-xs opacity-70 font-sans leading-relaxed">
-                  {fw.description}
-                </p>
-              </div>
-            );
-          })}
-        </div>
-      </section>
+      {/* Corner markers */}
+      <div className="fixed top-4 left-4 font-mono text-[9px] text-white/10 tracking-widest z-20">
+        DEEPEND.AI
+      </div>
+      <div className="fixed top-4 right-4 font-mono text-[9px] text-white/10 tracking-widest z-20">
+        V1.0
+      </div>
+      <div className="fixed bottom-4 left-4 font-mono text-[9px] text-white/10 tracking-widest z-20">
+        ROM 8:6
+      </div>
+      <div className="fixed bottom-4 right-4 font-mono text-[9px] text-white/10 tracking-widest z-20">
+        2025
+      </div>
     </div>
   );
 }
