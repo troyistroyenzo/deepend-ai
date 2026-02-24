@@ -16,6 +16,12 @@ export default function AppLayout({
             </a>
             <div className="flex items-center gap-6">
               <a
+                href="/start"
+                className="text-sm font-mono text-white/60 hover:text-white transition-colors uppercase tracking-wide"
+              >
+                Dashboard
+              </a>
+              <a
                 href="/episodes"
                 className="text-sm font-mono text-white/60 hover:text-white transition-colors uppercase tracking-wide"
               >
