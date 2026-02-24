@@ -121,4 +121,70 @@ export const biblicalRefs: BiblicalReference[] = [
     isPrimary: false,
     conceptIds: ['belief-stages', 'combined-protocol'],
   },
+
+  // ── FRAMEWORK 3: SPIRIT OF PYTHON ────────────────────────────────────────
+
+  {
+    id: 'acts-16-16',
+    reference: 'Acts 16:16-18',
+    translation: 'ESV',
+    text: 'As we were going to the place of prayer, we were met by a slave girl who had a spirit of divination and brought her owners much gain by fortune-telling. She followed Paul and us, crying out, "These men are servants of the Most High God, who proclaim to you the way of salvation." And this she kept doing for many days. Paul, having become greatly annoyed, turned and said to the spirit, "I command you in the name of Jesus Christ to come out of her." And it came out that very hour.',
+    application:
+      'The foundational text for the Spirit of Python. The Greek word translated "divination" is Pythona — the spirit of the Oracle at Delphi. Three critical observations: (1) Python said TRUE things about Paul. (2) Paul took days to discern it — spiritual annoyance was his signal. (3) Commanding it out in Jesus\'s name is the response. Truth + wrong spirit = Python.',
+    isPrimary: true,
+    conceptIds: ['python-definition', 'python-operations', 'python-discernment', 'python-breaking', 'divination-deep-dive', 'serpent-family', 'python-feeds', 'python-targets', 'spiritual-authority'],
+  },
+
+  // ── FRAMEWORK 4: SPIRITUAL COUNTERFEITS / KABBALAH ───────────────────────
+
+  {
+    id: 'john-14-6',
+    reference: 'John 14:6',
+    translation: 'ESV',
+    text: 'Jesus said to him, "I am the way, and the truth, and the life. No one comes to the Father except through me."',
+    application:
+      'The definitive counter to every counterfeit ascension system. Kabbalah offers a ladder you climb through mystical attainment — Merkabah, sephirot, the Abyss. Jesus doesn\'t offer a rung on the ladder: he IS the ladder. You don\'t ascend to the Father through esoteric knowledge. You enter through a person. This single verse dismantles the entire Kabbalistic framework.',
+    isPrimary: true,
+    conceptIds: ['christian-response-kabbalah', 'kabbalistic-framework', 'occult-power'],
+  },
+  {
+    id: 'isa-27-1',
+    reference: 'Isaiah 27:1',
+    translation: 'ESV',
+    text: 'In that day the LORD with his hard and great and strong sword will punish Leviathan the fleeing serpent, Leviathan the twisting serpent, and he will slay the dragon that is in the sea.',
+    application:
+      'Kabbalistic interpretation reframes this verse as describing two Leviathans — the Twin Messiahs awaiting restoration. The Christian reading is straightforward: God defeats and destroys Leviathan. The gap between these interpretations represents the entire theological divide between Kabbalah and Christianity on the nature of the serpent.',
+    isPrimary: false,
+    conceptIds: ['kosher-serpent', 'twin-messiahs'],
+  },
+  {
+    id: 'acts-7-43',
+    reference: 'Acts 7:43',
+    translation: 'ESV',
+    text: 'You took up the tent of Moloch and the star of your god Rephan, the images that you made to worship; and I will send you into exile beyond Babylon.',
+    application:
+      'Stephen\'s speech references the Star of Remphan — the six-pointed star that Dan Duval traces to Metatron\'s Cube and the Kabbalistic Tree of Life (six points, six sides, six faces). This star appears on the modern flag of Israel — not as an ethnic Jewish symbol but as a Kabbalistic/occult symbol with specific prophetic meaning in the twin messiah framework.',
+    isPrimary: false,
+    conceptIds: ['twin-messiahs', 'kabbalah-geopolitics'],
+  },
+  {
+    id: 'prov-14-12',
+    reference: 'Proverbs 14:12',
+    translation: 'ESV',
+    text: 'There is a way that seems right to a man, but its end is the way to death.',
+    application:
+      'The Kabbalistic trap in one verse. Kabbalah is intellectually sophisticated, spiritually powerful, and draws on real Hebrew texts. It seems right — especially to high-achievers, mystics, and those hungry for deeper truth. The danger is not that it seems false. The danger is that it seems true, produces real results in the short term, and leads somewhere catastrophic.',
+    isPrimary: true,
+    conceptIds: ['kabbalah-definition', 'kosher-serpent', 'kabbalah-new-age', 'occult-power'],
+  },
+  {
+    id: 'jer-1-5',
+    reference: 'Jeremiah 1:5',
+    translation: 'ESV',
+    text: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations.',
+    application:
+      'The foundation of the heavenly scroll concept. God knew Jeremiah\'s calling before conception — meaning divine purpose is not discovered through mystical attainment (Kabbalah\'s answer) but received through relationship with the one who wrote it. Your scroll exists. The question is which system you use to access it: the counterfeit ascension system or the person of Jesus.',
+    isPrimary: false,
+    conceptIds: ['heavenly-scrolls'],
+  },
 ];

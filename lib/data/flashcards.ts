@@ -709,4 +709,613 @@ Galatians 2:20 — "It is no longer I who live, but Christ who lives in me."
 
 Both frameworks move you from Performance → Identity.`,
   },
+
+  // ── FRAMEWORK 3: SPIRIT OF PYTHON (10 cards) ──────────────────────────────
+
+  {
+    id: 'f3-01',
+    frameworkId: 'framework-3',
+    conceptId: 'python-definition',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'easy',
+    front: 'What is the Spirit of Python?',
+    back: `The spirit specifically assigned to HUNT THE ANOINTING of God's people.
+
+Primary method: CONSTRICTION — like a physical python wrapping around
+prey, slowly squeezing until the last breath is taken.
+
+KEY INTERNAL SENSATION:
+Feeling trapped. Can't breathe. No way forward.
+Restricted in every direction simultaneously.
+
+BIBLICAL FOUNDATION:
+Acts 16 — Paul casts out a "spirit of divination" from a slave girl.
+Literal Greek: Pythona spirit.
+
+THE HEAT-SEEKER DYNAMIC:
+Python targets people who are spiritually hot and about to be promoted.
+Its presence is confirmation something is advancing in the spirit.
+"Python only comes after you because you're getting hot."`,
+  },
+  {
+    id: 'f3-02',
+    frameworkId: 'framework-3',
+    conceptId: 'serpent-family',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'easy',
+    front: 'What are the three primary serpent-class spirits?',
+    back: `LEVIATHAN
+Assignment: Pride, ego, distortion for separation
+Pattern: Spiritually advanced person → becomes arrogant → creates division
+Signature: Misinterpretation that splits community
+
+LEGION
+Assignment: Chaos, fragmentation, voices you can't shut down
+Pattern: Overwhelm, instability, inability to think clearly
+Signature: Confusion that never resolves
+
+PYTHON
+Assignment: Hunt the anointing, constrict it, replace with counterfeit
+Pattern: Spiritually advancing people systematically suffocated
+Signature: Rise → constriction → collapse cycle
+
+NOTE: Lower-ranking spirits adopt these names to seem more threatening.
+"Satan is attacking me" — almost certainly false. Satan negotiates, not attacks.`,
+  },
+  {
+    id: 'f3-03',
+    frameworkId: 'framework-3',
+    conceptId: 'python-operations',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'medium',
+    front: 'How does the Spirit of Python operate?',
+    back: `4 MECHANISMS:
+
+1. CONSTRICTION STRATEGY
+Attacks your supply lines — relationships, finances, influence — not weak points.
+Goal: Create suffocation so you retreat voluntarily.
+"It wants you to stop yourself."
+
+2. DECEPTION MULTIPLIER
+Doesn't just deceive — multiplies deception outward.
+Hijacks prophetic gifts through unhealed wounds.
+Entire networks think they're hearing from God. They're not.
+
+3. COUNTERFEIT ANOINTING
+Infiltrates trusted people. Right words, wrong spirit.
+Cannot fake the fruit of the Spirit — use that as your filter.
+
+4. UP-DOWN PATTERN
+Revival rises → gets choked → falls → rises → repeat.
+Career momentum builds → mysteriously collapses.
+If your life looks like repeated almost-breakthrough, Python is worth investigating.`,
+  },
+  {
+    id: 'f3-04',
+    frameworkId: 'framework-3',
+    conceptId: 'python-feeds',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'medium',
+    front: 'What does the Spirit of Python feed on?',
+    back: `4 PRIMARY FOOD SOURCES:
+
+1. FEAR
+Any agreement with the trapped narrative feeds it.
+"If the world had no fear, demons would be crawling, barely surviving."
+
+2. SLAVE vs. SON IDENTITY GAP
+People who are spiritually powerful but don't know who they are.
+Acts 16: the girl was literally a slave. Python loves identity gaps.
+When you understand you're an heir, not a servant, legal access begins to close.
+
+3. DIVINATION
+Any attempt to access the future bypassing God.
+Modern vectors: astrology, AI as oracle, psychedelics, energy healing.
+Middle ground is the most dangerous: half-in, half-out feeds it.
+
+4. CHRONIC SECOND-GUESSING
+Python corrupts the if-then logic engine.
+Swaps true for false until paralysis becomes the default state.
+Sign: changing your mind weekly on major God-given directions.`,
+  },
+  {
+    id: 'f3-05',
+    frameworkId: 'framework-3',
+    conceptId: 'python-discernment',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'medium',
+    front: 'How do you discern the Spirit of Python?',
+    back: `4 DISCERNMENT TOOLS:
+
+1. PHYSICAL SENSATION MARKERS
+Feeling of losing oxygen (not anxiety — constriction)
+Trapped with no clear exit at a transition season
+All normal escape routes cut simultaneously
+Rhythmic series of losses: deals, relationships, influence
+
+2. SPIRITUAL ANNOYANCE
+Paul was "greatly annoyed" before he discerned it.
+Someone says right things but you feel unsettled with no rational reason.
+"Annoyance is usually a sign of discernment — as long as it's not in your flesh."
+
+3. LIGHT AS NEUTRALIZER
+Understanding removes darkness.
+Naming what it is, seeing its mechanics — this alone can trigger deliverance.
+Blake Healy: described a spirit on a woman's shoulder. By the time he finished,
+it had already fled. Being seen was enough.
+
+4. FRUIT TEST (not doctrinal test)
+Python confesses correct doctrine. It says Jesus is Lord.
+Use the fruit of the Spirit: love, joy, peace, patience, kindness.
+Truth source + fruit absence = Python.`,
+  },
+  {
+    id: 'f3-06',
+    frameworkId: 'framework-3',
+    conceptId: 'python-breaking',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'hard',
+    front: 'What are the 3 steps to break the Spirit of Python?',
+    back: `STEP 1: DISCERN WHERE THE COIL IS
+Ask the Holy Spirit: "Where do I feel trapped? Where is there a lid?"
+Key diagnostic question: What did God ask me to do that I'm still waiting
+on conditions for? That's probably where the coil is.
+Python throttles the thing you're waiting on to prevent original obedience.
+
+STEP 2: INTERRUPT IN THE SPIRIT
+Nothing in the natural resolves a spiritual constriction.
+Command it: "In the name of Jesus, I command you to leave. No access."
+No elaborate prayer needed. Specific, serious, done.
+Ask Holy Spirit to restore breath, capacity, and peace.
+
+STEP 3: EXPAND AND MOVE
+Obedience and movement are the primary protection.
+"A python can't get you in a hold if you're moving."
+Do what God said NOW — not when conditions are right.
+Movement breaks constriction. Python prefers a hold. Chasing is hard for it.
+
+DAILY PRAYER: "God, thank you for your mercy. Reveal what I need to repent for.
+I want to depend on Jesus only. Cut the head off the snake. Amen."
+Consistency builds a reputation in the spirit. Python eventually leaves.`,
+  },
+  {
+    id: 'f3-07',
+    frameworkId: 'framework-3',
+    conceptId: 'python-targets',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'medium',
+    front: 'Who does the Spirit of Python primarily target?',
+    back: `PRIMARY TARGETS:
+
+1. PROPHETS AND EVANGELISTS
+Prophets bring the heat — they spiritually ignite the body of believers.
+Evangelists are the recruitment engine.
+Eliminate declaration + recruitment and there's no seed capital.
+The apostolic phase can't build if the prophetic/evangelical phases are destroyed.
+
+2. PEOPLE IN TRANSITION SEASONS
+Python comes during extreme spiritual advancement — right before promotion.
+The gap between "I know what I'm leaving" and "I know what I'm entering"
+is a primary hunting ground.
+If you're in that threshold and it feels suffocating — that's Python trying
+to make a temporary gap feel permanent.
+
+3. NEW BELIEVERS FROM NEW AGE / DIVINATION
+Were cold and invisible before. Now burning hot immediately after salvation.
+Scripture memory and spoken Word becomes urgent protection.
+Close the old access points quickly.
+
+KEY INSIGHT:
+Python's presence confirms you're advancing. The assignment proves the promotion.`,
+  },
+  {
+    id: 'f3-08',
+    frameworkId: 'framework-3',
+    conceptId: 'divination-deep-dive',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'hard',
+    front: 'What is divination and why is it linked to Python?',
+    back: `DIVINATION DEFINED:
+Any attempt to control or access knowledge about the future in a way that
+BYPASSES RELATIONSHIP WITH GOD.
+
+Core issue: Divination offers knowledge without relationship.
+That's the counterfeit.
+
+THE DAUGHTER ANALOGY:
+"I'll get in the truck, but only if you tell me what he said first."
+This is divination — obedience conditional on advance disclosure.
+God doesn't operate that way.
+
+MODERN VECTORS:
+• Astrology / moon signs / tarot / numerology
+• Past life regression / communicating with the dead (you're talking to a demon)
+• Psychedelics as spiritual gateways
+• AI as spiritual counsel (dependency on a counterfeit oracle)
+• Energy healing / crystal work
+
+THE PYTHON CONNECTION:
+Acts 16: the slave girl with the Python spirit operated through divination.
+Python's endgame: a counterfeit prophetic stream that replaces the real one.
+Divination is the tool it uses to build that stream.
+It followed Paul because it wanted to establish that stream in new territory.`,
+  },
+  {
+    id: 'f3-09',
+    frameworkId: 'framework-3',
+    conceptId: 'python-operations',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'hard',
+    front: 'What is the Praise-Worship-Faith loop and how does it defeat Python?',
+    back: `THE LOOP:
+
+PRAISE — Exalt God above everything.
+Declare his supremacy over all of creation.
+Establish who is actually in charge.
+
+WORSHIP — Thank him personally for what he's done in your life.
+Make it relational, not performative.
+Python cannot withstand genuine intimacy with God.
+
+FAITH — Declare in faith.
+Do NOT let your mind deviate back into self-doubt after the declaration.
+The moment of self-doubt is the gap Python uses.
+
+REPEAT.
+
+WHY IT WORKS:
+Python has more heat resistance than other spirits — regular prayer alone won't
+always shift it. But sustained fire will.
+Even Python has a survival instinct. When you become genuinely dangerous
+through consistent prayer, worship, and obedience, Python does a cost-benefit
+analysis and leaves.
+
+"Consistent, simple, faithful prayer builds a reputation in the spirit.
+Eventually Python gets the message that this is a slaughterhouse and moves on."`,
+  },
+  {
+    id: 'f3-10',
+    frameworkId: 'framework-3',
+    conceptId: 'python-definition',
+    biblicalRef: 'acts-16-16',
+    difficulty: 'easy',
+    front: 'What is the Acts 16 story and what does it reveal about Python?',
+    back: `THE STORY (Acts 16):
+Paul and Silas encounter a slave girl with a "spirit of divination."
+Literal Greek: Pythona spirit (linked to the Oracle at Delphi).
+
+WHAT SHE DID:
+Followed Paul for DAYS saying TRUE THINGS:
+"These men are servants of the Most High God, telling you how to be saved."
+Factually accurate. Wrong spirit.
+
+THIS IS PYTHON'S SIGNATURE:
+Truth mixed with wrong spirit.
+It says right things but produces wrong fruit.
+
+THE TIMELINE:
+Paul didn't discern it immediately. He listened for days.
+He became "greatly annoyed" — then finally commanded it out.
+After: her owners lost profit → Paul imprisoned → whole prison gets saved
+through praise and worship.
+
+THE KEY INSIGHT:
+Python always leads with truth to establish trust, THEN twists.
+You cannot rely on doctrinal accuracy alone.
+The fruit test is the only reliable filter.`,
+  },
+
+  // ── FRAMEWORK 4: SPIRITUAL COUNTERFEITS / KABBALAH (10 cards) ─────────────
+
+  {
+    id: 'f4-01',
+    frameworkId: 'framework-4',
+    conceptId: 'kabbalah-definition',
+    biblicalRef: 'prov-14-12',
+    difficulty: 'easy',
+    front: 'What is Kabbalah and the Tree of Life?',
+    back: `KABBALAH = "Received Knowledge"
+Not a single book — a system of Jewish mysticism.
+
+THE TREE OF LIFE:
+10 sephirot (spheres) connected by 22 paths.
+Maps to the human body: Keter (crown) → Yod (sex organs).
+Male side (right), female side (left).
+
+CRITICAL INSIGHT:
+The tree is not merely philosophy — it is a literal superstructure
+in the spirit world. This is why it has real power.
+
+CREATION EXPLAINED:
+Ein Sof (infinite God) emits vessels (sephirot) → they shattered →
+human purpose is tikkun (repair of the worlds).
+Adam Kadmon = primordial spiritual man who preceded physical Adam.
+
+KEY CONTRAST WITH CHRISTIANITY:
+Christianity: creation is fallen → redeemed by Christ.
+Kabbalah: creation is fractured → repaired BY MAN through mystical knowledge.
+Man becomes the agent of his own salvation.
+
+"There is a way that seems right to man, but in the end it leads to death."
+Proverbs 14:12`,
+  },
+  {
+    id: 'f4-02',
+    frameworkId: 'framework-4',
+    conceptId: 'kosher-serpent',
+    biblicalRef: 'prov-14-12',
+    difficulty: 'hard',
+    front: 'What is the Kosher Serpent Doctrine?',
+    back: `THE GEMATRIA ARGUMENT:
+Hebrew letters of "Messiah" (Mashiach) and "Nahash" (serpent)
+have the same numerical value.
+Therefore: the serpent in Eden was a messianic figure, not an enemy.
+
+KABBALISTIC REINTERPRETATION:
+The serpent came to Eden as a REDEMPTIVE AGENT to help Adam repair the worlds.
+Adam sinned by taking the Tree of Knowledge, unbalancing the Tree of Life.
+Samael then "rode" the serpent, corrupting what was meant to be messianic.
+The serpent is the victim of Adam's mistake.
+
+LEVIATHAN RECAST:
+Not a monster — a victimized messianic entity awaiting restoration.
+Isaiah 27:1 (God punishing Leviathan) = two Leviathans (the twin messiahs).
+Leviathan's role: guide humanity through Kabbalah + technology toward
+human immortality and universal consciousness.
+
+THIS IS THE THEOLOGICAL ROOT OF:
+New Age movement, transhumanism, globalist ideology.
+The serpent isn't defeated — it's being rehabilitated as the savior.`,
+  },
+  {
+    id: 'f4-03',
+    frameworkId: 'framework-4',
+    conceptId: 'twin-messiahs',
+    biblicalRef: 'acts-7-43',
+    difficulty: 'hard',
+    front: 'Who are the Twin Messiahs in Kabbalistic belief?',
+    back: `MESSIAH BEN YOSEPH (First Twin)
+Also called Metatron — "the Little Yahweh" (3 Enoch).
+Role: Driver of political Zionism.
+Mission: Deploy Kabbalistic mysteries, advance technology, establish
+Israel/Jerusalem as the global center for the second messiah.
+Metatron's Cube: six-pointed star (six points, six sides, six faces = 666)
+Star of Remphan (Acts 7:43) = same symbol on the flag of Israel.
+
+MESSIAH BEN DAVID (Second Twin)
+The serpent messiah who initiates universal consciousness.
+Appears after Messiah Ben Yoseph completes world preparation.
+Introduces the "Feast of Leviathan" — universal consciousness through
+carnal, culinary, and cognitive consciousness merged.
+
+THE THREE C'S:
+Carnal: sexual awakening / phallic worship
+Culinary: consumption of Leviathan's flesh
+Cognitive: ascending into universal awareness ("Christ consciousness")
+
+THIS IS WHERE "CHRIST CONSCIOUSNESS" COMES FROM IN NEW AGE:
+Jesus is not God — just the highest rung on the ladder, not the ladder.`,
+  },
+  {
+    id: 'f4-04',
+    frameworkId: 'framework-4',
+    conceptId: 'kabbalistic-framework',
+    biblicalRef: 'john-14-6',
+    difficulty: 'hard',
+    front: 'What is Merkabah Mysticism and the Kabbalistic Abyss?',
+    back: `MERKABAH MYSTICISM:
+Ancient Jewish practice linked to Elijah's chariot ascent into heaven.
+Uses twin pyramids (Star of David shape) — meditating to spin them around
+the soul in opposite directions.
+Goal: astral project through the sephirot worlds to meet councils and entities.
+
+This is the counterfeit ascension protocol.
+In Christianity: Jesus is the door.
+In Kabbalah: you build an astral vehicle to access the same realms independently.
+
+THE ABYSS (Da'at):
+The hidden sephira — same Hebrew root as "my people perish for lack of knowledge."
+Must be crossed to reach the Supernal Triad (top 3 sephirot).
+Crossing it requires dark spiritual work and buy-in from powerful dark entities.
+Reaching the Supernal Triad = becoming "a living god on earth."
+
+AS PROGRAMMING TEMPLATE:
+Used by Illuminati, Jesuit Order, Mongolian ritual systems.
+Installed through extreme ritual torture mapped to the sephirot on the body.
+Documented in Dan Duval's 10,000+ hours of ministry with survivors.
+Including infants as young as 3 months.`,
+  },
+  {
+    id: 'f4-05',
+    frameworkId: 'framework-4',
+    conceptId: 'kabbalah-new-age',
+    biblicalRef: 'prov-14-12',
+    difficulty: 'medium',
+    front: 'How did Kabbalah infiltrate the New Age movement?',
+    back: `THE TRANSMISSION PATH:
+New Age practitioners take Kabbalistic principles without the full Jewish
+mystical context. A true Kabbalist says this is like pulling a flower from
+its roots — works temporarily, then dies.
+But the power behind it is real because the Tree of Life is a real
+spiritual superstructure.
+
+KEY KABBALISTIC INFLUENCES ON MODERN NEW AGE:
+• David Hawkins' frequency scales
+• Law of Attraction mechanics
+• Crystal work and energy healing
+• Past-life regression
+• Ascension practices
+
+FAMOUS OCCULTISTS WHO STUDIED KABBALAH:
+Helena Blavatsky, A.E. Waite, Manly P. Hall, Albert Pike
+
+WHY CHRISTIANS MISS IT:
+Hebrew = automatic legitimacy to many Christians.
+Deception strategy: leave the middle of the truth intact, pervert the bookends.
+
+THE COMING ESCALATION:
+Kabbalah pushed through: Jewish mysticism, New Age, Hebrew Roots movement,
+Christian mysticism, dispensational premillennialism, and transhumanism.
+Prediction: de facto world religion within 10-15 years.`,
+  },
+  {
+    id: 'f4-06',
+    frameworkId: 'framework-4',
+    conceptId: 'kosher-serpent',
+    biblicalRef: 'isa-27-1',
+    difficulty: 'hard',
+    front: 'What is the 1840 inflection point in Kabbalistic prophecy?',
+    back: `THE ZOHAR PROPHECY:
+Written ~1280 AD (attributed to Rabbi Shimon bar Yochai).
+Prophesied ~1840 as the year Leviathan would begin rising again
+in his messianic role.
+
+WHAT HAPPENED IN THE 1840s:
+• Industrial Revolution (merging mystery with technology)
+• Rise of secret societies
+• Helena Blavatsky and Theosophy
+• Early Zionist thought emerging
+• Major occult revival across Europe and America
+
+THE TRAJECTORY:
+Kabbalistic mysteries + advancing technology =
+the transhumanist agenda in its spiritual root.
+
+Engineering human immortality + ascending into universal consciousness
+= the Kabbalistic alternative to resurrection.
+
+THE END-STATE:
+Mark of the Beast system, globalism, and transhumanism may all share
+a common spiritual root in Kabbalistic eschatology and the twin messiah
+framework.
+
+Not coincidence — prophetic architecture executed over centuries.`,
+  },
+  {
+    id: 'f4-07',
+    frameworkId: 'framework-4',
+    conceptId: 'occult-power',
+    biblicalRef: 'john-14-6',
+    difficulty: 'medium',
+    front: 'Does Kabbalah actually work? What is the true cost?',
+    back: `HONEST ANSWER: YES, IT WORKS.
+The power is real because the Tree of Life is a real spiritual superstructure.
+Dan Duval has worked with people who — through deep elemental magic anchored
+in Kabbalistic systems — could create storms and trigger seismic events.
+
+THE COCAINE ANALOGY:
+"Does cocaine work? Yes. That doesn't mean the side effects aren't destructive."
+
+THE TRUE COST:
+Every level of deeper initiation requires buy-in from darker entities.
+You cannot cross the abyss without their permission.
+People who leave New Age and Kabbalah deal with:
+• Spiritual harassment
+• Nightmares
+• Demonization long after leaving
+The deeper the initiation, the harder it is to close the doors opened.
+
+THE CENTRAL QUESTION:
+"You may have had the pop. But what did it cost you?"
+
+Dan's ministry (Bride Ministries International) specializes in helping
+people close those doors — through the person of Jesus Christ.`,
+  },
+  {
+    id: 'f4-08',
+    frameworkId: 'framework-4',
+    conceptId: 'christian-response-kabbalah',
+    biblicalRef: 'john-14-6',
+    difficulty: 'medium',
+    front: 'What is the Christian response to Kabbalah and New Age?',
+    back: `THE CRITICAL DISTINCTION:
+Other religions: Jesus is a rung on the ladder (high level, but not totality).
+Christianity: Jesus IS the ladder. He doesn't use the ascension system — he IS it.
+
+"I am the way, the truth, and the life.
+No one comes to the Father except through me." (John 14:6)
+
+When Jesus is the gate (not a stage), the entire Kabbalistic ascension
+protocol becomes unnecessary and counterfeit.
+
+HOW TO ENGAGE PEOPLE FROM NEW AGE / KABBALAH:
+• Meet people in their pain, NOT with theological condemnation
+• New Age accepts people the church rejects (entity experiences, visions)
+• Stop dismissing supernatural experiences as imaginary
+  — the experiences are often real; the interpretation is wrong
+• Goal: get people into a direct conversation with Jesus
+• When Muslims, Buddhists, Hindus encounter the real Jesus,
+  they worship him through the cultural wiring they already have
+
+THE DOOR IS JESUS — NOT A SYSTEM, NOT A LADDER, NOT A RUNG.`,
+  },
+  {
+    id: 'f4-09',
+    frameworkId: 'framework-4',
+    conceptId: 'heavenly-scrolls',
+    biblicalRef: 'jer-1-5',
+    difficulty: 'medium',
+    front: 'What is the counterfeit purpose vs. true calling?',
+    back: `KABBALAH'S OFFER:
+Power, manifestation, control over circumstances.
+Real results — until you hit the wall.
+"Five Porsches and still not satisfied."
+Because purpose outside your Creator's design produces emptiness.
+
+THE TRUTH:
+God wrote your scroll (Psalm 139, Jeremiah 1:5) before you were born.
+Divine purpose brings satisfaction regardless of financial status.
+
+THE ENEMY'S STRATEGY:
+He knows your destiny before you do — reads the "tea leaves" of your calling.
+Goes after generational lines to create covenantal interference
+(grandfather drawn into mysticism = covenant entangling descendants).
+
+BIBLICAL PATTERN:
+Job → loss
+David → obscurity + betrayal + mutiny
+Joseph → betrayal + prison
+Training is PROPORTIONAL to destiny.
+
+"Seasons of hiddenness are not signs of failure — they are formation
+processes extracting poison so purpose can flow."
+
+"Don't accept the judgment of the people around you and conflate it
+with God's opinion." — Dan Duval`,
+  },
+  {
+    id: 'f4-10',
+    frameworkId: 'framework-4',
+    conceptId: 'kabbalah-definition',
+    biblicalRef: 'prov-14-12',
+    difficulty: 'medium',
+    front: 'How does Kabbalah differ from Christianity at the root level?',
+    back: `KABBALAH'S COSMOLOGY:
+Creation is fractured → repaired BY MAN through mystical knowledge.
+Man is the agent of his own salvation.
+Tikkun olam = repair of the worlds through human effort.
+
+CHRISTIANITY'S COSMOLOGY:
+Creation is fallen → REDEEMED BY CHRIST.
+Man receives salvation through faith, not mystical attainment.
+Jesus does what man cannot do for himself.
+
+ON JESUS:
+Kabbalah: Jesus was the final reincarnation of a man who ascended into godhood.
+Christianity: Jesus IS God who descended into humanity.
+
+ON ASCENSION:
+Kabbalah: build a spiritual vehicle (Merkabah) to ascend through the sephirot.
+Christianity: Jesus IS the gate. You don't ascend — you enter.
+
+THE DECEPTION STRATEGY:
+"Leave the middle of the truth intact, pervert the bookends."
+Kabbalah keeps much of the Torah's vocabulary but changes
+the beginning (who God is) and the end (how salvation works).
+
+PROVERBS 14:12:
+"There is a way that seems right to man,
+but in the end it leads to death."
+This is the Kabbalistic trap in one verse.`,
+  },
 ];
