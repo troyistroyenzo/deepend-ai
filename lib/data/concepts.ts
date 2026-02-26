@@ -304,4 +304,88 @@ export const concepts: Concept[] = [
     timestamps: [{ episodeId: 'ep-4', time: '02:00:00', context: 'Heavenly Scrolls & Divine Purpose' }],
     biblicalRefs: ['jer-1-5', 'ps-139-13'],
   },
+
+  // ── FRAMEWORK 5: PRISON OF SHAME ─────────────────────────────────────────
+
+  {
+    id: 'shame-science',
+    name: 'The Science of Shame (Emotion Code)',
+    description:
+      "Three things happen when we experience an emotion: (1) The body generates an emotional vibration — a frequency/energy signal sent through the body and to others. (2) We interpret that vibration — the same chemical produces both excitement and fear; the difference is interpretation. (3) We decide: let it go or hang on (processing). The problem is when the vibration is so overwhelming it doesn't get processed — it gets trapped. Emotional Sonar: we canvas the world emotionally and interpret it logically. Your unspoken feelings affect others around you — you don't have to say negative things, you just have to think them.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '00:12:00', context: 'How Emotions Work — The Emotion Code' }],
+    biblicalRefs: ['eph-4-23'],
+  },
+  {
+    id: 'trapped-emotions-ras',
+    name: 'Trapped Emotions & the Reticular Activating System',
+    description:
+      "When an emotion gets trapped, it lodges in the body's most vulnerable area (genetic weak spots — predisposition to tumors, kidney issues, back pain, etc.). Once trapped, it feeds on itself and attracts more of the same emotion — this is Belief Architecture: feeling begets feeling. Sadness attracts sadness; enthusiasm attracts enthusiasm. The RAS partners with trapped emotions: if shame is trapped, your RAS actively scans your environment for evidence that confirms your unworthiness. It builds a case against you using the facts of your own life. Your brain literally filters reality to match your deepest agreements.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '00:28:00', context: 'Trapped Emotions & the RAS' }],
+    biblicalRefs: ['eph-4-23', 'rom-10-11'],
+  },
+  {
+    id: 'shame-indicators',
+    name: 'The 6 Shame Indicators (Radar Detection System)',
+    description:
+      "Six environments where shame grows. Use as a diagnostic radar to identify where the enemy is setting up camp to trap your emotions and immobilize you: (1) Misaligned Expectations, (2) Values-Behavior Misalignment, (3) Criticism & Rejection, (4) Comparison to Others, (5) Conviction vs. Shame Counterfeit, (6) Generational/Epigenetic Roots. Shame vs. Sadness: sadness is fine. Shame is the feeling that no matter what you do, you'll never measure up — the immobilization factor.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '00:40:00', context: '6 Shame Indicators Overview' }],
+    biblicalRefs: ['ps-34-5', 'rom-10-11'],
+  },
+  {
+    id: 'misaligned-expectations',
+    name: 'Indicator 1: Misaligned Expectations',
+    description:
+      "The scoreboard of our feelings around performance comes from our expectations. The Problem: when you have an expectation that you will never fail, failure produces shame. When your entire life is built around a goal that God didn't give you and you didn't come up with — that is a prime recipe for shame. The Fix: switch from outcome-based expectations (winning) to behavior-based (consistent effort). When there's a match between expectations and behaviors (not outcomes), shame has no environment to grow — like salt on meat or a freezer, the bacteria can't survive. Audit: where did your expectations come from? Societal? Parental? Generational? If God didn't give it to you, and you didn't come up with it — leave it alone.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '00:52:00', context: 'Indicator 1: Misaligned Expectations' }],
+    biblicalRefs: ['ps-37-23'],
+  },
+  {
+    id: 'values-behavior-gap',
+    name: 'Indicator 2: Values-Behavior Misalignment',
+    description:
+      "A value is something important to you. Your body is designed to throw a red flag across anything that violates a value — this is healthy. But when you're unaware of the gap, shame grows like bacteria on the mismatch. The Test: write out your values, then show your calendar. If the calendar doesn't tell the same story as your values list, you are a susceptible target for shame. Two responses exist when you miss the mark on a value: (1) renewed commitment to chase the value, or (2) shame that immobilizes you. The agreement 'I suck' must be broken and replaced with 'Let's fix it and move on.' When values and behaviors match, shame has no foothold.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '01:05:00', context: 'Indicator 2: Values-Behavior Misalignment' }],
+    biblicalRefs: ['col-1-9'],
+  },
+  {
+    id: 'conviction-vs-shame',
+    name: 'Indicator 5: Conviction vs. Shame (The Counterfeit)',
+    description:
+      "Shame is a counterfeit of one of the primary ways the Holy Spirit speaks: conviction. Holy Spirit Conviction: compares you to God's standard, always inspires you toward a new standard, points you in a better direction, you can feel broken AND amazing simultaneously, produces movement. Enemy's Counterfeit (Shame): compares you to society's/false expectations, immobilizes you, makes you feel like a total failure, you can NEVER feel amazing, produces paralysis. The Litmus Test: if you feel 'convicted' but also feel like a total failure and can't move — that was NOT the Holy Spirit. Real conviction of the Holy Spirit will NEVER produce shame.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '01:22:00', context: 'Conviction vs. Shame — The Counterfeit' }],
+    biblicalRefs: ['ps-34-5', 'rom-10-11'],
+  },
+  {
+    id: 'shame-freedom-protocol',
+    name: 'The 7-Step Freedom Protocol',
+    description:
+      "Step 1: Purge & Replace the CNS — rewire neurochemistry through deliberate reprogramming. Pray daily for the mind of Christ; the physical makeup of your brain will start to change. Step 2: Morning Formula (Teleology) — your present moment is changed based on what you believe the future contains. Replace outcome-based goals (net worth, possessions) with relationship/presence-based values. Step 3: Edge Programming — program declarations at physical extremity (cold plunge, end of run, sauna). Step 4: Scripture Confessions — feed the prefrontal cortex with the Word of God; it starts pushing out old programming. Step 5: Mind Renewal (Eph 4:23) — when truly renewed, the meaning of your life changes; you become impossible to immobilize. Step 6: Confession & Ownership — God will not cover what you are hiding. Step 7: Build Your Atmosphere — worship music, thin-veil environments, repeat His Word back to Him.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '01:35:00', context: 'The Freedom Protocol — 7 Steps' }],
+    biblicalRefs: ['eph-4-23', 'col-1-9', 'ps-37-23', 'deut-28-2'],
+  },
+  {
+    id: 'edge-programming',
+    name: 'Edge Programming (Neuroplasticity at Extremes)',
+    description:
+      "When the body is in a state of extreme extremity (intense cold, end of a hard run, deep sauna), the brain enters peak awareness. The veil between the natural and spiritual thins. Things are especially easy to rewrite at the edge. The Protocol — in a cold plunge, at the end of a run, or at the end of a sauna, repeat: (1) 'I am safe', (2) 'I am protected', (3) 'I am unafraid.' Do this daily. Your brain will conform to these declarations when it's at its most malleable state. This is neuroplasticity harnessed intentionally — not just exercise, but reprogramming at the moment of maximum receptivity.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '01:50:00', context: 'Edge Programming — Neuroplasticity at Extremes' }],
+    biblicalRefs: ['eph-4-23'],
+  },
+  {
+    id: 'shame-mind-renewal',
+    name: 'Mind Renewal & The Root Belief to Break',
+    description:
+      "The Greek word for 'mind' in Ephesians 4:23 means the whole package — intellect + the feeling that accompanies the intellect + the implication/meaning. When you truly get renewed, the meaning of your life changes, the meaning of a circumstance changes (same circumstance, totally different meaning), and you become impossible to slow down or immobilize. The Root Belief to Break: 'My life ultimately rises and falls on me. I am the last stop. No one else is coming to save me.' This belief produces hyper self-reliance that blocks God's mercy, inability to accept mercy, and a self-perpetuating engine the enemy doesn't even need to maintain. Romans 8:28 Reframe: adversity is not a hunt — it's a pathway God just opened for what He really wanted through this scenario.",
+    frameworkId: 'framework-5',
+    timestamps: [{ episodeId: 'ep-5', time: '02:05:00', context: 'Mind Renewal & the Root Belief to Break' }],
+    biblicalRefs: ['eph-4-23', 'ps-34-5', 'rom-10-11'],
+  },
 ];

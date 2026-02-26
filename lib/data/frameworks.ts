@@ -87,4 +87,24 @@ export const frameworks: Framework[] = [
       'heavenly-scrolls',
     ],
   },
+  {
+    id: 'framework-5',
+    name: 'Prison of Shame',
+    description:
+      'Shame is a spiritual weapon AND a neurochemistry pattern — a self-perpetuating engine installed by the enemy. Diagnose it through 6 indicators and dismantle it through the 7-step Freedom Protocol.',
+    color: 'shame',
+    icon: '⛓️',
+    episodeId: 'ep-5',
+    conceptIds: [
+      'shame-science',
+      'trapped-emotions-ras',
+      'shame-indicators',
+      'misaligned-expectations',
+      'values-behavior-gap',
+      'conviction-vs-shame',
+      'shame-freedom-protocol',
+      'edge-programming',
+      'shame-mind-renewal',
+    ],
+  },
 ];

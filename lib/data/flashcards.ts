@@ -1318,4 +1318,312 @@ PROVERBS 14:12:
 but in the end it leads to death."
 This is the Kabbalistic trap in one verse.`,
   },
+
+  // ── FRAMEWORK 5: PRISON OF SHAME (10 cards) ──────────────────────────────
+
+  {
+    id: 'f5-01',
+    frameworkId: 'framework-5',
+    conceptId: 'shame-science',
+    biblicalRef: 'eph-4-23',
+    difficulty: 'easy',
+    front: 'What is the core thesis of the Prison of Shame framework?',
+    back: `SHAME = SPIRITUAL WEAPON + NEUROCHEMISTRY PATTERN
+
+It is not just a feeling — it is a self-perpetuating engine
+built into your biology that runs on autopilot.
+
+The enemy doesn't need to follow you around
+if he can build the wrong engine.
+
+Shame from the PAST creates anxiety about the FUTURE.
+These two don't exist separately — they fuel one another.
+
+FREEDOM COMES FROM:
+Purging and replacing the central nervous system's programming
+through the Word of God, partnered with understanding the science
+behind how shame operates.`,
+  },
+  {
+    id: 'f5-02',
+    frameworkId: 'framework-5',
+    conceptId: 'shame-science',
+    biblicalRef: 'eph-4-23',
+    difficulty: 'easy',
+    front: 'What are the 3 things that happen when we experience an emotion?',
+    back: `THE EMOTION CODE — 3 STEPS:
+
+1. THE BODY GENERATES AN EMOTIONAL VIBRATION
+A frequency/energy signal sent through the body and to others.
+This is why you can "feel the room."
+If you can't feel others, you can't feel yourself.
+
+2. WE INTERPRET THAT VIBRATION
+We don't actually feel emotions — we interpret them.
+The SAME chemical produces excitement AND fear.
+Butterflies from excitement = same chemical as pit-in-stomach nervousness.
+The difference is your interpretation.
+
+3. WE DECIDE: LET IT GO OR HANG ON
+This is processing. Both options can be valid.
+The problem: when the vibration is so overwhelming
+it doesn't get processed — it gets TRAPPED.`,
+  },
+  {
+    id: 'f5-03',
+    frameworkId: 'framework-5',
+    conceptId: 'trapped-emotions-ras',
+    biblicalRef: 'rom-10-11',
+    difficulty: 'medium',
+    front: 'What is a trapped emotion and what does the RAS do with it?',
+    back: `TRAPPED EMOTION:
+When an emotion can't be processed, it lodges in the body's most
+vulnerable area (genetic weak spots — tumor predisposition, kidney
+issues, back pain, etc.).
+
+Once trapped, it FEEDS ON ITSELF and attracts more of the same.
+This is Belief Architecture: feeling begets feeling.
+Sadness attracts sadness. Enthusiasm attracts enthusiasm.
+
+THE RAS (RETICULAR ACTIVATING SYSTEM):
+Partners with trapped emotions.
+If shame is trapped, your RAS actively scans your environment
+for evidence that CONFIRMS your unworthiness.
+
+It builds a case against you using the facts of your own life.
+Your brain literally filters reality to match your deepest agreements.
+
+Result: shame is self-proving — it generates its own evidence.`,
+  },
+  {
+    id: 'f5-04',
+    frameworkId: 'framework-5',
+    conceptId: 'shame-indicators',
+    difficulty: 'easy',
+    front: 'What are the 6 Shame Indicators (the Radar Detection System)?',
+    back: `THE 6 ENVIRONMENTS WHERE SHAME GROWS:
+
+1. 🎯 MISALIGNED EXPECTATIONS
+   Expectations you didn't author + failure = shame
+
+2. 📋 VALUES-BEHAVIOR MISALIGNMENT
+   Gap between who you say you are and how you live
+
+3. 🗣️ CRITICISM & REJECTION
+   Underdeveloped relationship with correction
+
+4. 🔄 COMPARISON TO OTHERS
+   The bridge: comparison at the bottom = shame,
+   at the top = pride — same engine
+
+5. ❌ CONVICTION vs. SHAME (The Counterfeit)
+   Enemy mimics the Holy Spirit with a paralyzing imitation
+
+6. 🧬 GENERATIONAL/EPIGENETIC ROOTS
+   Shame inherited through the bloodline
+
+Use these as DIAGNOSTIC RADAR — not condemnation,
+but to identify where the enemy set up camp.`,
+  },
+  {
+    id: 'f5-05',
+    frameworkId: 'framework-5',
+    conceptId: 'misaligned-expectations',
+    biblicalRef: 'ps-37-23',
+    difficulty: 'medium',
+    front: 'What is Indicator 1: Misaligned Expectations? What is the fix?',
+    back: `INDICATOR 1: MISALIGNED EXPECTATIONS
+
+THE PROBLEM:
+The scoreboard of our feelings comes from our expectations.
+When you expect you will never fail → failure produces shame.
+When your life is built around a goal God didn't give you
+and you didn't come up with → prime recipe for shame.
+
+THE FIX:
+Switch from OUTCOME-BASED expectations (winning)
+to BEHAVIOR-BASED expectations (consistent effort).
+
+"I'm going to give it my best effort consistently."
+→ When you fail, you just try again.
+→ Shame has no environment to grow.
+Like salt on meat or a freezer — bacteria can't survive.
+
+AUDIT:
+Where did your expectations come from?
+Societal? Parental? Generational?
+If God didn't give it to you, and you didn't come up with it —
+leave it alone.
+
+KEY VERSE: Psalm 37:23 — "The steps of a righteous man are ordered by the Lord."`,
+  },
+  {
+    id: 'f5-06',
+    frameworkId: 'framework-5',
+    conceptId: 'values-behavior-gap',
+    biblicalRef: 'col-1-9',
+    difficulty: 'medium',
+    front: 'What is Indicator 2: Values-Behavior Misalignment?',
+    back: `INDICATOR 2: VALUES-BEHAVIOR MISALIGNMENT
+
+A VALUE = something important to you.
+Your body throws a red flag across anything that violates a value.
+This is healthy. But when you're unaware of the gap,
+shame grows like bacteria on the mismatch.
+
+THE TEST:
+Write out your values.
+Then show me your calendar.
+If your calendar doesn't tell the same story as your values list,
+you are a susceptible target for shame.
+
+EXAMPLES:
+• Value: "Be healthy" → 100 lbs overweight → shame grows
+• Value: "Be an entrepreneur" → never tried to build → shame grows
+• Value: "Be a good husband" → behavior contradicts it → shame grows
+
+TWO RESPONSES to missing your values:
+1. Renewed commitment to chase the value ✓
+2. Shame that immobilizes you ✗
+
+Break the agreement "I suck."
+Replace with "Let's fix it and move on."
+
+When values and behaviors match → shame has no foothold.`,
+  },
+  {
+    id: 'f5-07',
+    frameworkId: 'framework-5',
+    conceptId: 'conviction-vs-shame',
+    biblicalRef: 'ps-34-5',
+    difficulty: 'hard',
+    front: 'What is the difference between Holy Spirit conviction and shame?',
+    back: `CONVICTION vs. SHAME — The Counterfeit
+
+HOLY SPIRIT CONVICTION:
+• Compares you to GOD'S standard
+• Always INSPIRES toward a new standard
+• Points you in a BETTER DIRECTION
+• You can feel broken AND amazing simultaneously
+• Produces MOVEMENT
+
+ENEMY'S COUNTERFEIT (SHAME):
+• Compares you to society's/false expectations
+• IMMOBILIZES you
+• Makes you feel like a total FAILURE
+• You can NEVER feel amazing with shame present
+• Produces PARALYSIS
+
+THE LITMUS TEST:
+If you feel "convicted" but also feel like a total failure
+and cannot move — that was NOT the Holy Spirit.
+
+Real conviction of the Holy Spirit will
+NEVER produce shame.
+
+PSALM 34:5:
+"Those who look to him are radiant;
+their faces are never covered with shame."`,
+  },
+  {
+    id: 'f5-08',
+    frameworkId: 'framework-5',
+    conceptId: 'shame-indicators',
+    difficulty: 'hard',
+    front: 'What is the Bridge Principle of comparison?',
+    back: `INDICATOR 4: COMPARISON — THE BRIDGE PRINCIPLE
+
+Comparison creates a false mini-representation of the world
+by which you learn right from wrong through other people.
+
+THE BRIDGE:
+Comparison at the BOTTOM → SHAME
+Comparison at the TOP → PRIDE
+
+It is ONE bridge — you cannot knock the top off once you get there.
+If your fuel source at the bottom was comparison/shame,
+you CANNOT change the engine at the top.
+
+THE DIESEL ENGINE ANALOGY:
+If your engine was built to run on comparison/shame,
+you can't just switch fuel when you "make it."
+You have to go BACK DOWN, replace the engine, rebuild.
+The only exception: the Holy Spirit can convert the engine supernaturally.
+
+THE RICH SLAVE:
+If you win the world because you had a chip on your shoulder,
+you're just a rich slave with no control over yourself.
+Eventually you'll satiate that chip and regulate back down —
+or manufacture false enemies (like Michael Jordan)
+just to get out of bed.`,
+  },
+  {
+    id: 'f5-09',
+    frameworkId: 'framework-5',
+    conceptId: 'edge-programming',
+    biblicalRef: 'eph-4-23',
+    difficulty: 'medium',
+    front: 'What is Edge Programming and what are the 3 declarations?',
+    back: `EDGE PROGRAMMING — Neuroplasticity at Extremes
+
+When the body is at EXTREME EXTREMITY
+(intense cold, end of a hard run, deep sauna),
+the brain enters peak awareness.
+The veil between natural and spiritual thins.
+Things are especially easy to REWRITE at the edge.
+
+THE PROTOCOL:
+In a cold plunge, at the end of a run,
+or at the end of a sauna, repeat:
+
+1. "I AM SAFE"
+2. "I AM PROTECTED"
+3. "I AM UNAFRAID"
+
+Do this DAILY.
+Your brain will conform to these declarations
+when it's at its most malleable state.
+
+This is neuroplasticity harnessed intentionally —
+not just exercise, but reprogramming at the moment
+of maximum receptivity.`,
+  },
+  {
+    id: 'f5-10',
+    frameworkId: 'framework-5',
+    conceptId: 'shame-mind-renewal',
+    biblicalRef: 'eph-4-23',
+    difficulty: 'hard',
+    front: 'What is the root belief that must be broken to escape the prison of shame?',
+    back: `THE ROOT BELIEF TO BREAK:
+
+"My life ultimately rises and falls on me.
+I am the last stop.
+No one else is coming to save me."
+
+This belief entered through a TRAUMA MOMENT
+and became the operating system.
+
+IT PRODUCES:
+• Hyper self-reliance that blocks God's mercy
+• Discounting good things as anomalies
+• Reverting to expecting the worst
+• Inability to accept mercy (different from forgiveness)
+• A self-perpetuating engine the enemy doesn't even need to maintain
+
+GOD'S RESPONSE:
+"I will no longer tolerate that belief system
+because it's contrary to My Word."
+
+THE ROMANS 8:28 REFRAME:
+Old: "I'm being hunted. Of course this would happen."
+New: "Some principality just made a terrible mistake.
+They just opened a pathway for God to get
+what He really wanted through this scenario."
+
+EPHESIANS 4:23:
+When your mind is being renewed,
+you CANNOT experience shame. The meaning changes.
+The engine changes. Everything changes.`,
+  },
 ];

@@ -187,4 +187,67 @@ export const biblicalRefs: BiblicalReference[] = [
     isPrimary: false,
     conceptIds: ['heavenly-scrolls'],
   },
+
+  // ── FRAMEWORK 5: PRISON OF SHAME ─────────────────────────────────────────
+
+  {
+    id: 'ps-34-5',
+    reference: 'Psalm 34:5',
+    translation: 'NIV',
+    text: 'Those who look to him are radiant; their faces are never covered with shame.',
+    application:
+      'The direct biblical antidote to shame. Radiance is the byproduct of looking to God — not performance, not self-improvement, not achieving the right outcomes. The promise is categorical: those who look to Him will NEVER be covered with shame. This is the Spirit OS response to the shame engine: redirect attention from self-assessment to God.',
+    isPrimary: true,
+    conceptIds: ['shame-indicators', 'conviction-vs-shame', 'shame-mind-renewal'],
+  },
+  {
+    id: 'rom-10-11',
+    reference: 'Romans 10:11',
+    translation: 'ESV',
+    text: 'For the Scripture says, "Everyone who believes in him will not be put to shame."',
+    application:
+      'Paul quotes Isaiah 28:16 to establish that shame is incompatible with genuine belief in Jesus. Shame is not a byproduct of faith — it is the counterfeit that replaces faith when the enemy installs the wrong engine. If shame is present, something other than the Holy Spirit is operating.',
+    isPrimary: true,
+    conceptIds: ['conviction-vs-shame', 'trapped-emotions-ras', 'shame-mind-renewal'],
+  },
+  {
+    id: 'eph-4-23',
+    reference: 'Ephesians 4:23-24',
+    translation: 'NIV',
+    text: 'Be made new in the attitude of your minds; and to put on the new self, created to be like God in true righteousness and holiness.',
+    application:
+      'The Greek word for "mind" here means the whole package — intellect + the feeling that accompanies the intellect + the implication/meaning. This is not just intellectual belief change; it is a rewiring of the entire meaning-making apparatus. When the mind is truly renewed, the meaning of your life changes, the meaning of circumstances changes, and shame loses its grip entirely.',
+    isPrimary: true,
+    conceptIds: ['shame-freedom-protocol', 'edge-programming', 'shame-mind-renewal', 'shame-science'],
+  },
+  {
+    id: 'ps-37-23',
+    reference: 'Psalm 37:23',
+    translation: 'KJV',
+    text: 'The steps of a good man are ordered by the LORD: and he delighteth in his way.',
+    application:
+      'Key confession for rewiring outcome-based anxiety. "I am always in the right place at the right time because the steps of a righteous man are ordered by the Lord." When this is truly believed, shame around perceived failures dissolves — because God ordered this step too. Misaligned expectations lose their power when the foundational agreement is that God is directing the path.',
+    isPrimary: false,
+    conceptIds: ['misaligned-expectations', 'shame-freedom-protocol'],
+  },
+  {
+    id: 'col-1-9',
+    reference: 'Colossians 1:9',
+    translation: 'NIV',
+    text: 'We continually ask God to fill you with the knowledge of his will through all the wisdom and understanding that the Spirit gives.',
+    application:
+      'Confession for the shame indicator of values-behavior misalignment: "I am filled with the knowledge of God\'s will in every single thing." When you are filled with the knowledge of God\'s will, you operate from clarity rather than confusion — values and behaviors align, and shame has no foothold in the gap between them.',
+    isPrimary: false,
+    conceptIds: ['values-behavior-gap', 'shame-freedom-protocol'],
+  },
+  {
+    id: 'deut-28-2',
+    reference: 'Deuteronomy 28:2',
+    translation: 'KJV',
+    text: 'And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God.',
+    application:
+      'Part of the morning confession protocol for purging shame-based scarcity thinking. "My finances are always increasing because the Lord is my provider and His blessings overtake me." The word "overtake" is significant — blessings catch up to and surpass you. This is the Spirit OS financial posture that replaces the Flesh OS scarcity engine shame installs.',
+    isPrimary: false,
+    conceptIds: ['shame-freedom-protocol'],
+  },
 ];

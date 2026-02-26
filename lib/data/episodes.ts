@@ -81,4 +81,25 @@ export const episodes: Episode[] = [
       'heavenly-scrolls',
     ],
   },
+  {
+    id: 'ep-5',
+    title: 'The Prison of Shame (unworthiness, brain patterns, & freedom)',
+    description:
+      "Shame is not just a feeling — it's a self-perpetuating engine built into your biology that runs on autopilot. The enemy doesn't need to follow you around if he can build the wrong engine. Shame from the past creates anxiety about the future. Freedom comes from purging and replacing the central nervous system's programming through the Word of God.",
+    youtubeUrl: '',
+    duration: '2:15:00',
+    publishedDate: '2024-05-15',
+    frameworks: ['framework-5'],
+    concepts: [
+      'shame-science',
+      'trapped-emotions-ras',
+      'shame-indicators',
+      'misaligned-expectations',
+      'values-behavior-gap',
+      'conviction-vs-shame',
+      'shame-freedom-protocol',
+      'edge-programming',
+      'shame-mind-renewal',
+    ],
+  },
 ];
